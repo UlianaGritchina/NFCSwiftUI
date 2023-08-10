@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0B5D132A85566B00B24EE0 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B5D122A85566B00B24EE0 /* View + Extension.swift */; };
 		0E53FD592A85407E00E4F38D /* NFCSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FD582A85407E00E4F38D /* NFCSwiftUIApp.swift */; };
 		0E53FD5B2A85407E00E4F38D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FD5A2A85407E00E4F38D /* MainView.swift */; };
 		0E53FD5D2A85407F00E4F38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E53FD5C2A85407F00E4F38D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0B5D122A85566B00B24EE0 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
 		0E53FD552A85407E00E4F38D /* NFCSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E53FD582A85407E00E4F38D /* NFCSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCSwiftUIApp.swift; sourceTree = "<group>"; };
 		0E53FD5A2A85407E00E4F38D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0B5D112A85565C00B24EE0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B5D122A85566B00B24EE0 /* View + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0E53FD4C2A85407E00E4F38D = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				0EE7D6A12A8546790054061F /* NFCSwiftUI.entitlements */,
 				0E53FD682A85460C00E4F38D /* SupportingFiles */,
+				0E0B5D112A85565C00B24EE0 /* Extensions */,
 				0EE7D6A22A854EA60054061F /* Managers */,
 				0E53FD662A8545FA00E4F38D /* Core */,
 			);
@@ -181,6 +192,7 @@
 				0EE7D6A42A854EB90054061F /* NFCManager.swift in Sources */,
 				0E53FD5B2A85407E00E4F38D /* MainView.swift in Sources */,
 				0E53FD592A85407E00E4F38D /* NFCSwiftUIApp.swift in Sources */,
+				0E0B5D132A85566B00B24EE0 /* View + Extension.swift in Sources */,
 				0EE7D6A62A854EE90054061F /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,12 +326,14 @@
 				DEVELOPMENT_TEAM = 86SKTK882J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NFC;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "We need to acces to NFC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,12 +359,14 @@
 				DEVELOPMENT_TEAM = 86SKTK882J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NFC;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "We need to acces to NFC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

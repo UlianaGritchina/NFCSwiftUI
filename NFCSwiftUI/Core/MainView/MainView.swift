@@ -22,6 +22,9 @@ struct MainView: View {
             .padding()
             .navigationTitle("NFC")
         }
+        .onTapGesture {
+            hideKeyboard()
+        }
     }
 }
 
